@@ -8,6 +8,6 @@ Depois de uma profunda análise do problema (stackoverflow kkk), descobri o prob
 
 **Dica**
 > - Como o codigo acima é em PHP, para rodar você vai presisar de um server.
-> - Se não tiver não quiser configurar server em php, tem uma extensão para PHP a "PHP Server"
+> - Se não tiver não quiser configurar server em php, tem uma extensão do vscode para PHP a "PHP Server"
 
 ![imagem da extensão](extension.png)
