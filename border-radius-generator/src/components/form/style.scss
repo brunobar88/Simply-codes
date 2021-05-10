@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.range {
+    width: 250px;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    outline: none;
+    margin: 20px 0;
+}
+.range::-webkit-slider-runnable-track{
+    height: 6px;
+    background: #e9c893;
+    border-radius: 25px;
+    transition: .3s;
+} 
+
+.range::-webkit-slider-runnable-track:hover {
+    background: #FFFFFF;
+}
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    box-shadow: 1px 2px 2px #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background: #e9c893;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: .3s;
+}
+
+.range::-webkit-slider-thumb:hover{
+    background: #FFFFFF;
+}
+.labelInput {
+    color: #e9c893;
+
+}

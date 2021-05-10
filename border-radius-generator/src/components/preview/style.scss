@@ -1,0 +1,18 @@
+.contPreview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tituloPrev {
+    color: #e9c893;
+    font-weight: bold;
+}
+
+.preview {
+    width: 200px;
+    height: 200px;
+    background: #e9c893;
+    transition: .3s;
+    margin-top: 10px;
+}

@@ -1,0 +1,52 @@
+.contResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .tituloResult {
+        color: #e9c893;
+        font-weight: bold;
+        border-bottom: 1px solid #e9c893;
+        padding: 5px 0;
+        width: 250px;
+        text-align: center;
+    }
+    .resultCss {
+        margin-top: 10px;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 10px 0;
+        width: 255px;
+        color: #e9c893;
+        font-size: 16px;
+    }
+    .btnCopiar {
+        border: none;
+        background: transparent;
+        color: #e9c893;
+        padding: 10px;
+        border-bottom: 1px solid #e9c893;
+        font-size: 16px;
+        font-weight: bold;
+        outline: none;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .btnCopiar:hover{
+        color: #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+    }
+}
+.espaco { height: 50px; }
+.contWarning {
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid #e9c893;
+    color: #e9c893;
+    font-size: 14px;
+    font-weight: bold;
+}
+
