@@ -1,0 +1,8 @@
+Velocidade = velocidadeInicial + aceleração * tempo;
+
+Posiçao = PosiçãoInicial + VelocidadeInicial * tempo + 0.5 * aceleraçao * tempo ** 2
+
+Aceleração = -3 * 9,8⁻³ 
+
+velocidade = a*t
+
